@@ -12,16 +12,10 @@ import {
 
 import { useLocation } from "react-router-dom";
 import {
-  archiveOutline,
-  archiveSharp,
+  alarmOutline,
   heartOutline,
-  heartSharp,
-  mailOutline,
-  mailSharp,
-  paperPlaneOutline,
-  paperPlaneSharp,
-  trashOutline,
-  trashSharp,
+  informationCircleOutline,
+  schoolOutline,
 } from "ionicons/icons";
 import "./Menu.css";
 
@@ -35,33 +29,27 @@ interface AppPage {
 const appPages: AppPage[] = [
   {
     title: "Personal Information",
-    url: "/page/Perosnal",
-    iosIcon: mailOutline,
-    mdIcon: mailSharp,
+    url: "/page/Profile-Information",
+    iosIcon: informationCircleOutline,
+    mdIcon: informationCircleOutline,
   },
   {
     title: "Educational Background",
     url: "/page/Educations",
-    iosIcon: paperPlaneOutline,
-    mdIcon: paperPlaneSharp,
+    iosIcon: schoolOutline,
+    mdIcon: schoolOutline,
   },
   {
     title: "Work Experience",
     url: "/page/Works",
-    iosIcon: heartOutline,
-    mdIcon: heartSharp,
+    iosIcon: alarmOutline,
+    mdIcon: alarmOutline,
   },
   {
     title: "Interest and Hobbies",
     url: "/page/Hobbies",
-    iosIcon: archiveOutline,
-    mdIcon: archiveSharp,
-  },
-  {
-    title: "Social Media",
-    url: "/page/Socials",
-    iosIcon: trashOutline,
-    mdIcon: trashSharp,
+    iosIcon: heartOutline,
+    mdIcon: heartOutline,
   },
 ];
 
