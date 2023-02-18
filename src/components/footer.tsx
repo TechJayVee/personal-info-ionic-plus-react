@@ -17,7 +17,7 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <IonFooter className="ion-padding ion-padding-bottom">
+    <IonFooter className="ion-padding-top">
       <IonToolbar>
         <IonText color="primary">Connect with Me:</IonText>
         <IonButtons slot="end">
